@@ -30,7 +30,7 @@ for i in range(num_medicos):
     while True:
         try:
             experiencia = int(input(f"Ingrese los años de experiencia de {nombre}: "))
-            if experiencia >= 0:
+            if experiencia >0:
                 break
             else:
                 print("¡Error clínico! Ingresa un número entero positivo para la experiencia.")
